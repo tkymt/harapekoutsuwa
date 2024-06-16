@@ -1,4 +1,7 @@
 img {
-    height: auto;
+  height: auto;
+  width: 720px;
+  @media screen and (max-width: 720px) {
     max-width: 100%;
+  }
 }
